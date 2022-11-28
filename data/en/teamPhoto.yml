@@ -1,5 +1,0 @@
-################################# teamPhoto #########################
-teamPhoto:
-  enable: true
-  bg_image: images/backgrounds/team-cropped.jpg
-  bg_image_webp: images/backgrounds/team-cropped.webp
