@@ -1,0 +1,28 @@
+{{ $data := index site.Data site.Language.Lang }}
+
+{{ if $data.logos.logos.enable}}
+{{ with $data.logos.logos}}
+{{"<!-- Start Call To Action -->" | safeHTML}}
+<section id="cta" class="call-to-action section-sm bg-1 overly" style='background-image: url("{{ .bg_image_webp | absURL }}"); background-position: center center;'>
+	<!-- this image is for trigger this section fallback background image -->
+	<img src="{{ .bg_image_webp | absURL }}" style="display: none;" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .bg_image | absURL }})'">
+	<div class="container">
+		<div class="row justify-content-center">
+            {{ range .logos}}
+            {{"<!-- team member -->" | safeHTML}}
+            <div class="col-lg-3 col-md-6 col-12 wow fadeInDown" data-wow-duration="500ms">
+              <div class="team-member" style="background-color: white">
+                <div class="member-photo" style="text-align: center">
+                  {{"<!-- member photo -->" | safeHTML}}
+                  <img class="logo-partner {{ .name }} lozad" data-src="{{ .image_webp | absURL }}" onerror="this.onerror=null;this.src='{{ .image | absURL }}'" alt="{{ .name }}">
+                </div>
+              </div>
+            </div>
+            {{"<!-- end team member -->" | safeHTML}}
+            {{ end }}
+          </div>
+	</div>
+</section>
+{{"<!-- Start Services Section -->" | safeHTML}}
+{{ end }}
+{{ end }}

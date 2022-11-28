@@ -1,0 +1,15 @@
+############################# About ###################################
+about:
+  enable : true
+  title : What is xLungs?
+  about_item :
+  - icon : ti-support # themify icon pack : https://themify.me/themify-icons
+    title : Our problem
+    content : The aim of our project is to create tools for automated diagnosis of various lungs diseases to support radiologists in their work.
+  - icon : ti-server # themify icon pack : https://themify.me/themify-icons
+    title : Our data
+    content : We work with our partners to create the largest database of patients in Poland, consisting of anonymised tabular data, x-rays and CT scans.
+
+  - icon : ti-thought # themify icon pack : https://themify.me/themify-icons
+    title : Our methods
+    content : Knowing the pros and cons of ML systems, we do not only wish to deliver high-performing solution, but also fully explainable and reliable one.

@@ -1,0 +1,28 @@
+############################### team ############################
+team:
+  enable : true
+  title : Our team
+  team_member :
+    # team member loop
+    - name : Przemysław Biecek
+      image_webp : images/team/przemek_bw.webp
+      image : images/team/przemek_bw.jpg
+      designation : Head of Research
+      content : Supervises the research work in the project based on his years-long experience in R&D projects and Explainable AI expertise.
+      social :
+        - icon : ti-linkedin # themify icon pack : https://themify.me/themify-icons
+          link : "https://www.linkedin.com/in/pbiecek/"
+        - icon : ti-world # themify icon pack : https://themify.me/themify-icons
+          link : "https://www.mi2.ai/the-team.html#przemysław-biecek"
+        
+    # team member loop
+    - name : Anna Kozak
+      image_webp : images/team/akozak_bw.webp
+      image : images/team/akozak_bw.jpg
+      designation : Chief Operating Officer
+      content : Responsible for making the work of our team more efficient by supervising project execution on a daily basis.
+      social :
+        - icon : ti-linkedin # themify icon pack : https://themify.me/themify-icons
+          link : "https://www.linkedin.com/in/kozakanna/"
+        - icon : ti-world # themify icon pack : https://themify.me/themify-icons
+          link : "https://www.mi2.ai/the-team.html#anna-kozak"
