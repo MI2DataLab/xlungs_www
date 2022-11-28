@@ -1,0 +1,11 @@
+############################# call to action ##############################
+cta:
+  enable : true
+  bg_image : "images/backgrounds/lung_front_filter.jpg"
+  bg_image_webp : "images/backgrounds/lung_front_filter.webp"
+  title : "Funding"
+  content : "Work on this project is financially supported by the NCBiR grant INFOSTRATEG-I/0022/2021-00"
+  button:
+    enable : false
+    label : "Get to know us"
+    link : "#contact"

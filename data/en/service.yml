@@ -1,0 +1,19 @@
+################################# Service #################################
+service:
+  enable : true
+  title : We deliver
+  service_item :
+    # service item loop
+    - name : Data
+      icon : ti-search # themify icon pack : https://themify.me/themify-icons
+      content : In the first stage, we cleaned and anonymised files of more than 30 thousand patients. We later shared portion of our data during [Lungs Decoded Challenge](https://www.meddata.tech/ldc).
+      
+    # service item loop
+    - name : Research
+      icon : ti-blackboard # themify icon pack : https://themify.me/themify-icons
+      content : In stage number 2, our goal is to deliver high-performing and explainable machine learning models to classify lungs diseases from CT scans, x-rays and patients' history.
+    # service item loop
+    - name : Productisation
+      icon : ti-package # themify icon pack : https://themify.me/themify-icons
+      content : Finally, we want to test best solutions with medical teams to adjust them specifically to their needs and offer them tools to make their day-to-day work more efficient.
+      

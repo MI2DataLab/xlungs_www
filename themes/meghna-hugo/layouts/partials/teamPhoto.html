@@ -1,0 +1,16 @@
+{{ $data := index site.Data site.Language.Lang }} {{ if
+$data.teamPhoto.teamPhoto.enable }} {{ with $data.teamPhoto.teamPhoto }} {{"<!-- Start teamPhoto -->"
+| safeHTML}}
+<section
+  id="teamPhoto"
+  class="testimonial overly section bg-2 team-photo"
+  style="background-image: url('{{ .bg_image_webp | absURL }}'); background-position: center top; background-size: 100% auto; min-height: 950px;"
+>
+  <!-- this image is for trigger this section fallback background image -->
+  <img
+    src="{{ .bg_image_webp | absURL }}"
+    style="display: none"
+    onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .bg_image | absURL }})'"
+  />
+</section>
+{{"<!-- /teamPhoto -->" | safeHTML}} {{ end }} {{ end }}
