@@ -1,5 +1,5 @@
 ################################# Default configuration ###################
-baseURL = "https://demo.gethugothemes.com/xLungs/"
+baseURL = "https://mi2datalab.github.io/xlungs_www"
 title = "xLungs"
 theme = "meghna-hugo"
 # post pagination
