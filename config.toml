@@ -1,5 +1,5 @@
 ################################# Default configuration ###################
-baseURL = "https://mi2datalab.github.io/xlungs_www"
+baseURL = "http://xlungs.mi2.ai"
 title = "xLungs"
 theme = "meghna-hugo"
 # post pagination
