@@ -1,28 +1,109 @@
 ############################### team ############################
 team:
   enable : true
-  title : Our team
+  title : Our Team
   team_member :
-    # team member loop
-    - name : Przemysław Biecek
-      image_webp : images/team/przemek_bw.webp
-      image : images/team/przemek_bw.jpg
-      designation : Head of Research
-      content : Supervises the research work in the project based on his years-long experience in R&D projects and Explainable AI expertise.
-      social :
-        - icon : ti-linkedin # themify icon pack : https://themify.me/themify-icons
-          link : "https://www.linkedin.com/in/pbiecek/"
-        - icon : ti-world # themify icon pack : https://themify.me/themify-icons
-          link : "https://www.mi2.ai/the-team.html#przemysław-biecek"
-        
-    # team member loop
-    - name : Anna Kozak
-      image_webp : images/team/akozak_bw.webp
-      image : images/team/akozak_bw.jpg
-      designation : Chief Operating Officer
-      content : Responsible for making the work of our team more efficient by supervising project execution on a daily basis.
-      social :
-        - icon : ti-linkedin # themify icon pack : https://themify.me/themify-icons
-          link : "https://www.linkedin.com/in/kozakanna/"
-        - icon : ti-world # themify icon pack : https://themify.me/themify-icons
-          link : "https://www.mi2.ai/the-team.html#anna-kozak"
+    - name: Przemysław Biecek
+      image: images/team/przemek.jpg
+      designation: Head of Research
+      social:
+        - icon: ti-world
+          link: https://scholar.google.pl/citations?user=Af0O75cAAAAJ
+        - icon: ti-linkedin
+          link: https://www.linkedin.com/in/pbiecek/
+        - icon: ti-github
+          link: https://github.com/pbiecek
+
+    - name: Anna Kozak
+      image: images/team/akozak.jpg
+      designation: Chief Operating Officer
+      social:
+        - icon: ti-world
+          link: https://scholar.google.pl/citations?user=JIrqf9kAAAAJ
+        - icon: ti-linkedin
+          link: https://www.linkedin.com/in/kozakanna
+        - icon: ti-github
+          link: https://github.com/kozaka93
+
+    - name: Marcin Luckner
+      image_webp: images/team/marcin_luckner.webp
+      designation: Team Leader
+      social:
+        - icon: ti-world
+          link: https://pages.mini.pw.edu.pl/~lucknerm/index.php/en/
+
+    - name: Mariusz Adamek
+      image: images/team/mariusz_adamek.jpg
+      designation: Medical Doctor
+      social:
+        - icon: ti-world
+          link: https://www.mariuszadamek.io
+
+    - name: Patryk Szatkowski
+      image: images/team/patryk_szatkowski.jpeg
+      designation: Medical Doctor
+
+    - name: Przemysław Bombiński
+      image: images/team/przemyslaw_bombinski.jpg
+      designation: Medical Doctor
+
+    - name: Adam Kozłowski
+      image: images/team/akozlowski.jpg
+      designation: ML Engineer
+      social:
+        - icon: ti-linkedin
+          link: https://www.linkedin.com/in/adam-kozlowski-akozowski280/
+        - icon: ti-github
+          link: https://github.com/adam-kozlowski-280
+
+    - name: Bartek Sobieski
+      image: images/team/bsobieski.jpg
+      designation: ML Engineer
+      social:
+        - icon: ti-linkedin
+          link: https://www.mi2.ai/www.linkedin.com/in/bartłomiej-sobieski
+        - icon: ti-github
+          link: https://github.com/sobieskibj
+
+    - name: Maciej Chrabąszcz
+      image: images/team/maciej_chrabaszcz.jpg
+      designation: ML Engineer
+      social:
+        - icon: ti-linkedin
+          link: https://www.linkedin.com/in/maciej-chrabaszcz/
+        - icon: ti-github
+          link: https://github.com/maciejchrabaszcz
+
+    - name: Mateusz Grzyb
+      image: images/team/mateusz_grzyb.jpg
+      designation: Data Scientist
+      social:
+        - icon: ti-github
+          link: https://github.com/PlentyCoups
+
+    - name: Piotr Piątyszek
+      image: images/team/piotr_piatyszek.jpg
+      designation: DevOps
+      social:
+        - icon: ti-github
+          link: https://github.com/piotrpiatyszek
+
+    - name: Paulina Tomaszewska
+      image: images/team/ptomaszewska.jpg
+      designation: ML Engineer
+      social:
+        - icon: ti-world
+          link: https://scholar.google.com/citations?user=eO245iMAAAAJ
+        - icon: ti-linkedin
+          link: https://www.linkedin.com/in/paulina-tomaszewska-2a8517109/
+
+    - name: Weronika Hryniewska
+      image: images/team/whryniewska.png
+      designation: ML Engineer
+      social:
+        - icon: ti-world
+          link: https://scholar.google.pl/citations?user=aJeg3IQAAAAJ
+        - icon: ti-linkedin
+          link: https://www.linkedin.com/in/weronikahryniewska
+        - icon: ti-github
+          link: https://github.com/Hryniewska

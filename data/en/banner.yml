@@ -1,11 +1,16 @@
 ############################### Banner ################################
 banner:
   enable : true
-  bg_image_webp : "images/backgrounds/projects_xlungs_filter.webp"
-  bg_image : "images/backgrounds/projects_xlungs_filter.jpg"
+  bg_image_webp : "images/backgrounds/lungs.png"
+  bg_image : "images/backgrounds/lungs.png"
   icon : "" # themify icon pack : https://themify.me/themify-icons
-  title : "xLungs - Automated Lungs Diagnostics"
-  content : "Explore xLungs project, where we create explainable machine learning solutions to support radiologists in their day-to-day work!"
+  title : xLUNGS
+  sub_title : Automated Lungs Diagnostics
+  content : >
+    Supporting Radiologists
+
+
+    in Their Work
   button:
     enable : true
     label : "Read more"

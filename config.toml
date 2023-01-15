@@ -1,6 +1,6 @@
 ################################# Default configuration ###################
 baseURL = "http://xlungs.mi2.ai"
-title = "xLungs"
+title = "xLUNGS"
 theme = "meghna-hugo"
 # post pagination
 paginate = "6"
@@ -22,7 +22,7 @@ link = "plugins/magnific-popup/magnific-popup.css"
 [[params.plugins.css]]
 link = "plugins/slick/slick.css"
 [[params.plugins.css]]
-link = "https://fonts.googleapis.com/css?family=Anaheim|Quattrocento+Sans:400,700&display=swap"
+link = "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,500;0,600;0,700&display=swap"
 
 # js plugins
 [[params.plugins.js]]
@@ -42,29 +42,34 @@ link = "plugins/google-map/map.js"
 
 ################### English Navigation ########################
 [[Languages.en.menu.main]]
-name = "about"
+name = "ABOUT"
 url = "#about"
 weight = 1
 
 [[Languages.en.menu.main]]
-name = "portfolio"
-url = "#services"
+name = "DATABASE"
+url = "#feature"
 weight = 2
 
 [[Languages.en.menu.main]]
-name = "team"
-url = "#team"
+name = "PARTNERS"
+url = "#partners"
 weight = 3
 
-# [[Languages.en.menu.main]]
-# name = "blog"
-# url = "#blog"
-# weight = 4
+[[Languages.en.menu.main]]
+name = "TEAM"
+url = "#team"
+weight = 4
 
 [[Languages.en.menu.main]]
-name = "contact"
+name = "BLOG"
+url = "#blog"
+weight = 5
+
+[[Languages.en.menu.main]]
+name = "CONTACT"
 url = "#contact"
-weight = 4
+weight = 6
 
 ############################# Default Parameters ##########################
 [params]
@@ -112,7 +117,6 @@ link = "https://twitter.com/mi2_ai"
 [[params.social]]
 icon = "ti-dribbble" # themify icon pack : https://themify.me/themify-icons
 link = "https://medium.com/responsibleml"
-
 
 ################################ English Language ########################
 [Languages.en]

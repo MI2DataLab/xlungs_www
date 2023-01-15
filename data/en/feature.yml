@@ -1,18 +1,35 @@
 ############################# feature ###################################
 feature:
   enable : true
-  image : images/about/doctor_scrub.png
-  image_webp : images/about/doctor_scrub.webp
-  title : Who we are?
-  content : "We highly believe that the best projects are done in interdisciplinary teams. This is why we combine knowledge of:
-"
-  feature_item : 
-      # feature item loop
-    - title : Data & ML Experts
-      icon : ti-stats-up # themify icon pack : https://themify.me/themify-icons
-      content : From statisticians to deep learning engineers, we want to explore the broadest range of solutions. We also use our years-long Explainable AI expertise to assure our models are fully interpretable.
-      
-      # feature item loop
-    - title : Medical Experts
-      icon : ti-pulse # themify icon pack : https://themify.me/themify-icons
-      content : We combine the knowledge of radiologists and diagnosticians to ensure we fully understand the problems we face. They help us in data annotation, testing the hypotheses and verifying that our solutions can be used by them in the future.
+  image : images/files-dark.png
+  image_webp : images/files-dark.png
+  title : The Largest **Database** in Poland
+  content : >
+    In the first stage of our project, we cleaned and processed data
+    related to lung diagnostics provided by
+    Polska Grupa Raka Płuca and Banacha Hospital in Warsaw.
+    As a result, we created the largest database in Poland, containing:
+
+  items :
+    - title : Chest X-Rays
+      icon : ti-save # themify icon pack : https://themify.me/themify-icons
+      content : >
+        2-dimensional images of chest area used in diagnosis
+        of various chest conditions, lung contents and nearby organs.
+    - title : CT Scans
+      icon : ti-save # themify icon pack : https://themify.me/themify-icons
+      content : >
+        3-dimensional data providing highly detailed images
+        of chest area, which allows to create different lung projections.
+
+    - title : Patients’ History
+      icon : ti-user # themify icon pack : https://themify.me/themify-icons
+      content : >
+        Supplementary tabular data describing patients’
+        conditions, history, diagnosis and other medical parameters.
+
+    - title : Interpretable Features
+      icon : ti-pencil-alt # themify icon pack : https://themify.me/themify-icons
+      content : >
+        Additionally created masks that show specific spots
+        in an image which are important for the diagnostic purposes.
