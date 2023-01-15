@@ -1,0 +1,25 @@
+partners:
+  enable : true
+  title : Partners
+  main_text : Work on this project is financially supported by the **NCBiR** grant **INFOSTRATEG-I/0022/2021-00**
+
+  logos :
+    - image_webp : images/logos/ncbr.png
+      image : images/team/ncbr.png
+      name : 'ncbr'
+      link: "https://ncbr.gov.pl"
+
+    - image_webp : images/logos/mi2.png
+      image : images/logos/mi2.png
+      name : 'mi_research'
+      link: "https://mi2.ai"
+
+    - image_webp : images/logos/pw.png
+      image : images/logos/pw.png
+      name : 'pw'
+      link: "https://mini.pw.edu.pl/"
+
+    - image_webp : images/logos/mini.png
+      image : images/logos/mini.png
+      name : 'mini'
+      link: "https://pw.edu.pl/"

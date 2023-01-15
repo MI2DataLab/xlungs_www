@@ -16,8 +16,9 @@
 			</div>
 			{{"<!-- /section title -->" | safeHTML}}
 
+			{{ if .enable_contant_info }}
 			{{"<!-- Contact Details -->" | safeHTML}}
-			<div class="contact-info col-lg-6 wow fadeInUp" data-wow-duration="500ms">
+			<div class="contact-info col-lg-12 wow fadeInUp" data-wow-duration="500ms">
 				<h3>{{ .subtitle | markdownify }}</h3>
 				<p> {{ .content | markdownify }} </p>
 
@@ -32,11 +33,12 @@
 				</div>
 				{{ end }}
 			</div>
+			{{ end }}
 
 			{{"<!-- Contact Form -->" | safeHTML}}
-			{{ if .contact_form.enable }}
 			{{ with .contact_form }}
-			<div class="col-lg-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
+			{{ if .enable }}
+			<div class="col-lg-12 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
 				<form id="contact-form" class="form-meghna" method="post" action="{{ .form_action }}" role="form" enctype="text/plain">
 					<div class="form-group">
 						<input type="text" placeholder="{{ .name }}" class="form-control" name="name" id="name">
@@ -56,17 +58,13 @@
 					</div>
 				</form>
 			</div>
-			{{ end }}
 			{{ else }}
-			<div class="contact-details">
-				{{ range .contact_list }}
-				<div class="con-info clearfix">
-					<i class="{{ .icon }}"></i>
-					<span>{{ .info }}</span>
-				</div>
-				{{ end }}
+			<div class='text-center emailto'>
+				<a class="btn btn-main" href="{{ .form_action }}">Write an email</a>
 			</div>
 			{{ end }}
+			{{ end }}
+
 		</div>
 	</div>
 </section>

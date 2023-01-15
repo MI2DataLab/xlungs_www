@@ -36,9 +36,8 @@
 
           {{"<!-- member name & designation -->" | safeHTML}}
           <div class="member-meta">
-            <h4>{{ .name }}</h4>
+            <h4>{{ index (split .name " ") 0 }}<br/>{{ index (split .name " ") 1 }}</h4>
             <span>{{ .designation | markdownify}}</span>
-            <p>{{ .content | markdownify }}</p>
           </div>
         </div>
       </div>

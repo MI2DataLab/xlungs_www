@@ -1,0 +1,30 @@
+blog:
+  enabled: true
+  blogs:
+    - title: How to change healthcare in less than 6 hours?
+      link: https://medium.com/responsibleml/how-to-change-healthcare-in-less-than-6-hours-4c05effca723
+      image: images/blog/art1.png
+
+    - title: Large-scale anonymization of medical imaging data in the DICOM format
+      link: https://medium.com/responsibleml/large-scale-anonymization-of-medical-imaging-data-in-the-dicom-format-2f80658db7ae
+      image: images/blog/art2.png
+
+    - title: Managing experiment metadata “like a MLOps” — Neptune
+      link: https://medium.com/responsibleml/managing-experiment-metadata-like-a-mlops-neptune-c22e6095a01e
+      image: images/blog/art3.png
+
+    - title: "LIMEcraft: handcrafted superpixel selection and inspection for Visual eXplanations"
+      link:  https://medium.com/responsibleml/limecraft-handcrafted-superpixel-selection-and-inspection-for-visual-explanations-c4b8e9bbb3c4
+      image: images/blog/art4.png
+
+    - title: "RadioTator: A Tailored Tool for Rapid Medical Text Annotation"
+      link: https://medium.com/responsibleml/a-tailored-tool-for-rapid-medical-text-annotation-f756c1e06d64
+      image: images/blog/art5.png
+
+    - title: Radiologists’ nightmare — segmentation masks
+      link: https://medium.com/responsibleml/radiologists-nightmare-segmentation-masks-10581ae9310
+      image: images/blog/art6.png
+
+    - title: Towards the largest database of Polish lung medical images
+      link: https://medium.com/responsibleml/towards-the-largest-database-of-polish-lung-medical-images-13df8c2b1695
+      image: images/blog/art7.png
